@@ -130,3 +130,67 @@ total size is 2.15K  speedup is 14.54
 ]0;s4d1@CC2-28: ~/Desktops4d1@CC2-28:~/Desktop$ exit
 
 Script done on Thursday 04 April 2019 11:01:33 AM IST
+Script started on Thursday 04 April 2019 11:11:22 AM IST
+]0;s4d1@CC2-28: ~/Desktops4d1@CC2-28:~/Desktop$ scpr[K -r /home[K[K[K[K[K[K[K[K[K[K[K[Kcd ..
+]0;s4d1@CC2-28: ~s4d1@CC2-28:~$ scp -r /home/s4d1/Desktop/cs232-master cs17d23@192.168.0.30:/home/cs17d23/[K[Kcd[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd Desktop
+]0;s4d1@CC2-28: ~/Desktops4d1@CC2-28:~/Desktop$ scp -r /home/s4d1/Desktop/cs232-master cs17d23@192.168.0.30:/home/cs17d23
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d23@192.168.0.30's password: 
+
+ceccs17d23.25.03.19.txt                                                   0%    0     0.0KB/s   --:-- ETA
+ceccs17d23.25.03.19.txt                                                 100%   11KB  10.8KB/s   00:00    
+
+ceccs17d2311.03.19.txt                                                    0%    0     0.0KB/s   --:-- ETA
+ceccs17d2311.03.19.txt                                                  100%  106KB 106.3KB/s   00:00    
+
+task2.sh                                                                  0%    0     0.0KB/s   --:-- ETA
+task2.sh                                                                100% 2152     2.1KB/s   00:00    
+
+ceccs17d23.25.02.19.txt                                                   0%    0     0.0KB/s   --:-- ETA
+ceccs17d23.25.02.19.txt                                                 100%  631KB 631.3KB/s   00:00    
+
+hub_lan.txt                                                               0%    0     0.0KB/s   --:-- ETA
+hub_lan.txt                                                             100%   40KB  40.1KB/s   00:00    
+
+ceccs17d23.04.02.19.txt                                                   0%    0     0.0KB/s   --:-- ETA
+ceccs17d23.04.02.19.txt                                                 100%   81KB  81.1KB/s   00:00    
+
+task4.txt                                                                 0%    0     0.0KB/s   --:-- ETA
+task4.txt                                                               100% 5465     5.3KB/s   00:00    
+
+ceccs17d23.11.02.19.txt                                                   0%    0     0.0KB/s   --:-- ETA
+ceccs17d23.11.02.19.txt                                                 100%  449KB 448.5KB/s   00:00    
+]0;s4d1@CC2-28: ~/Desktops4d1@CC2-28:~/Desktop$ ssh cs17d23@192.168.0.2[K30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d23@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+278 packages can be updated.
+0 updates are security updates.
+
+Last login: Thu Apr  4 11:03:40 2019 from 192.168.0.220
+
+$ pwd
+/home/cs17d23
+$ ls
+a.txt  cs232-master  cs.txt  examples.desktop  task2.sh  test.txt
+$ ls c    cd cs232-master
+$ ls
+ceccs17d23.04.02.19.txt  ceccs17d2311.03.19.txt   ceccs17d23.25.03.19.txt  task2.sh
+ceccs17d23.11.02.19.txt  ceccs17d23.25.02.19.txt  hub_lan.txt		   task4.txt
+$ 
+Connection to 192.168.0.30 closed.
+
+]0;s4d1@CC2-28: ~/Desktops4d1@CC2-28:~/Desktop$ exit
+
+Script done on Thursday 04 April 2019 11:24:15 AM IST
