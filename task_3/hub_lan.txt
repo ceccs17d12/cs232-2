@@ -81,16 +81,23 @@ SIOCSIFADDR: No such device
 netmask: ERROR while getting interface flags: No such device
 ]0;root@CC2-28: /home/cec-lab2/Desktoproot@CC2-28:/home/cec-lab2/Desktop# ifconfig eth0 192.168.25.4
 ]0;root@CC2-28: /home/cec-lab2/Desktoproot@CC2-28:/home/cec-lab2/Desktop# ifconfig eth0 192.168.25.4
-]0;root@CC2-28: /home/cec-lab2/Desktoproot@CC2-28:/home/cec-lab2/Desktop# ifconfig eth0 192.168.25.4 netmask 255.255.2 55.04
+]0;root@CC2-28: /home/cec-lab2/Desktoproot@CC2-28:/home/cec-lab2/Desktop# ifconfig eth0 192.168.25.4 netmask 255.255.2 
+55.04
 SIOCSIFNETMASK: Invalid argument
-]0;root@CC2-28: /home/cec-lab2/Desktoproot@CC2-28:/home/cec-lab2/Desktop# ifconfig eth0 192.168.25.4 netmask 255.255.2555.04[K
-]0;root@CC2-28: /home/cec-lab2/Desktoproot@CC2-28:/home/cec-lab2/Desktop# ifconfig eth0 192.168.25.4 netmask 255.255.2555.0[K5
+]0;root@CC2-28: /home/cec-lab2/Desktoproot@CC2-28:/home/cec-lab2/Desktop# ifconfig eth0 192.168.25.4 netmask 255.255.25
+55.04[K
+]0;root@CC2-28: /home/cec-lab2/Desktoproot@CC2-28:/home/cec-lab2/Desktop# ifconfig eth0 192.168.25.4 netmask 255.255.25
+55.0[K5
 SIOCSIFNETMASK: Invalid argument
-]0;root@CC2-28: /home/cec-lab2/Desktoproot@CC2-28:/home/cec-lab2/Desktop# ifconfig eth0 192.168.25.4 netmask 255.255.2555.5[K1
+]0;root@CC2-28: /home/cec-lab2/Desktoproot@CC2-28:/home/cec-lab2/Desktop# ifconfig eth0 192.168.25.4 netmask 255.255.25
+55.5[K1
 SIOCSIFNETMASK: Invalid argument
-]0;root@CC2-28: /home/cec-lab2/Desktoproot@CC2-28:/home/cec-lab2/Desktop# ifconfig eth0 192.168.25.4 netmask 255.255.2555.15[K2044[K[K[K44
+]0;root@CC2-28: /home/cec-lab2/Desktoproot@CC2-28:/home/cec-lab2/Desktop# ifconfig eth0 192.168.25.4 netmask 255.255.25
+55.15[K2044[K[K[K44
 SIOCSIFNETMASK: Invalid argument
-]0;root@CC2-28: /home/cec-lab2/Desktoproot@CC2-28:/home/cec-lab2/Desktop# ifconfig eth0 192.168.25.4 netmask 255.255.2555.244[K[K[K[K[A]0;root@CC2-28: /home/cec-lab2/Desktoproot@CC2-28:/home/cec-lab2/Desktop# ifconfig eth0 192.168.25.4 netmask 255.255.255.[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kifconfig
+]0;root@CC2-28: /home/cec-lab2/Desktoproot@CC2-28:/home/cec-lab2/Desktop# ifconfig eth0 192.168.25.4 netmask 255.255.25
+55.244[K[K[K
+[K[A]0;root@CC2-28: /home/cec-lab2/Desktoproot@CC2-28:/home/cec-lab2/Desktop# ifconfig eth0 192.168.25.4 netmask 255.255.255.[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kifconfig
 eth0      Link encap:Ethernet  HWaddr 38:d5:47:b8:da:9e  
           inet addr:192.168.25.4  Bcast:192.168.25.255  Mask:255.255.255.0
           inet6 addr: fe80::3ad5:47ff:feb8:da9e/64 Scope:Link
@@ -186,11 +193,15 @@ PING 192.168.25.2 (192.168.25.2) 56(84) bytes of data.
 [4]+  Stopped                 ping 192.168.25.2
 ]0;root@CC2-28: /home/cec-lab2/Desktoproot@CC2-28:/home/cec-lab2/Desktop# sftp root@192.168.25.5\
 > ^[[2~[K[K[K
-ssh: Could not resolve hostname 192.168.25.5\033: Name or service not known
-Couldn't read packet: Connection reset by peer
+ssh: Could not resolve hostname 192.168.25.5\033: Name or service not known
+
+Couldn't read packet: Connection reset by peer
+
 ]0;root@CC2-28: /home/cec-lab2/Desktoproot@CC2-28:/home/cec-lab2/Desktop# sftp root@192.168.25.5^[[K[K5
-ssh: connect to host 192.168.25.5 port 22: No route to host
-Couldn't read packet: Connection reset by peer
+ssh: connect to host 192.168.25.5 port 22: No route to host
+
+Couldn't read packet: Connection reset by peer
+
 ]0;root@CC2-28: /home/cec-lab2/Desktoproot@CC2-28:/home/cec-lab2/Desktop# sudo sftp root[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksftp root@192.168.25.5^[[7Pping 192.168.25.2
 PING 192.168.25.2 (192.168.25.2) 56(84) bytes of data.
 64 bytes from 192.168.25.2: icmp_seq=1 ttl=64 time=0.209 ms
@@ -202,13 +213,16 @@ PING 192.168.25.2 (192.168.25.2) 56(84) bytes of data.
 ^Z
 [5]+  Stopped                 ping 192.168.25.2
 ]0;root@CC2-28: /home/cec-lab2/Desktoproot@CC2-28:/home/cec-lab2/Desktop# ping 192.168.25.2sftp root@192.168.25.5
-ssh: connect to host 192.168.25.5 port 22: No route to host
-Couldn't read packet: Connection reset by peer
+ssh: connect to host 192.168.25.5 port 22: No route to host
+
+Couldn't read packet: Connection reset by peer
+
 ]0;root@CC2-28: /home/cec-lab2/Desktoproot@CC2-28:/home/cec-lab2/Desktop# sftp root@192.168.25.5[K5[C[C[C[C[C[C[C[C[C[C[C[C[C[K2
 The authenticity of host '192.168.25.2 (192.168.25.2)' can't be established.
 RSA key fingerprint is 0e:ac:0a:9c:54:2c:a0:8a:c4:c7:19:a3:44:ca:7f:53.
 Are you sure you want to continue connecting (yes/no)? yes
-Warning: Permanently added '192.168.25.2' (RSA) to the list of known hosts.
+Warning: Permanently added '192.168.25.2' (RSA) to the list of known hosts.
+
 root@192.168.25.2's password: 
 Connected to 192.168.25.2.
 sftp> ls
@@ -237,7 +251,8 @@ poly.c~                            python2.4-2.4-1pydotorg.i386.rpm   python3-3.
 yum-2.0.7                          yum-4.4.3.tar.gz                   
 sftp> rm abc.txt
 Removing /root/Desktop/abc.txt
-Couldn't delete file: No such file or directory
+Couldn't delete file: No such file or directory
+
 sftp> ls
 Python-2.7.15-22_Oso.x86_64.rpm    aa                                 alphiealeena                       
 binary.c                           binary.c~                          bubblesort.c~                      
@@ -284,12 +299,17 @@ sheba                signal.c             sort.txt             sys.sh~          
 typescript           usr                  yum-2.4.3            yum-3.4.3            
 sftp> get a.txt
 Fetching /root/a.txt to a.txt
-/root/a.txt                                                               0%    0     0.0KB/s   --:-- ETA/root/a.txt                                                             100%   10     0.0KB/s   00:00    
+
+/root/a.txt                                                               0%    0     0.0KB/s   --:-- ETA
+/root/a.txt                                                             100%   10     0.0KB/s   00:00    
 sftp> put /home/cec-lab2/ceccs17d02/insort.c
 Uploading /home/cec-lab2/ceccs17d02/insort.c to /root/insort.c
-/home/cec-lab2/ceccs17d02/insort.c                                        0%    0     0.0KB/s   --:-- ETA/home/cec-lab2/ceccs17d02/insort.c                                      100%  512     0.5KB/s   00:00    
+
+/home/cec-lab2/ceccs17d02/insort.c                                        0%    0     0.0KB/s   --:-- ETA
+/home/cec-lab2/ceccs17d02/insort.c                                      100%  512     0.5KB/s   00:00    
 sftp> put /home/cec-lab2/ceccs17d02/insort.c: /home/root/des[K[K[KDesktop
-stat /home/cec-lab2/ceccs17d02/insort.c:/home/root/Desktop: No such file or directory
+stat /home/cec-lab2/ceccs17d02/insort.c:/home/root/Desktop: No such file or directory
+
 sftp> pwd
 Remote working directory: /root
 sftp> cd ..
@@ -342,21 +362,29 @@ poly.c~                            python2.4-2.4-1pydotorg.i386.rpm   python3-3.
 yum-2.0.7                          yum-4.4.3.tar.gz                   
 sftp> get binary.c
 Fetching /root/Desktop/binary.c to binary.c
-/root/Desktop/binary.c                                                    0%    0     0.0KB/s   --:-- ETA/root/Desktop/binary.c                                                  100%    1     0.0KB/s   00:00    
+
+/root/Desktop/binary.c                                                    0%    0     0.0KB/s   --:-- ETA
+/root/Desktop/binary.c                                                  100%    1     0.0KB/s   00:00    
 sftp> lpwd
 Local working directory: /home/cec-lab2/Desktop
 sftp> p[Kpwd
 Remote working directory: /root/Desktop
 sftp> put a.tc[K=[Kxt
 Uploading a.txt to /root/Desktop/a.txt
-a.txt                                                                     0%    0     0.0KB/s   --:-- ETAa.txt                                                                   100%   10     0.0KB/s   00:00    
+
+a.txt                                                                     0%    0     0.0KB/s   --:-- ETA
+a.txt                                                                   100%   10     0.0KB/s   00:00    
 sftp> bye
 ]0;root@CC2-28: /home/cec-lab2/Desktoproot@CC2-28:/home/cec-lab2/Desktop# cs[K[Ksftp s4d1@192.168.25.4[K3
-ssh: connect to host 192.168.25.3 port 22: No route to host
-Couldn't read packet: Connection reset by peer
+ssh: connect to host 192.168.25.3 port 22: No route to host
+
+Couldn't read packet: Connection reset by peer
+
 ]0;root@CC2-28: /home/cec-lab2/Desktoproot@CC2-28:/home/cec-lab2/Desktop# sftp s4d1@192.168.25.3[K03
-ssh: connect to host 192.168.25.03 port 22: No route to host
-Couldn't read packet: Connection reset by peer
+ssh: connect to host 192.168.25.03 port 22: No route to host
+
+Couldn't read packet: Connection reset by peer
+
 ]0;root@CC2-28: /home/cec-lab2/Desktoproot@CC2-28:/home/cec-lab2/Desktop# ifconfig
 eth0      Link encap:Ethernet  HWaddr 38:d5:47:b8:da:9e  
           inet addr:192.168.25.4  Bcast:192.168.25.31  Mask:255.255.255.224
@@ -425,8 +453,10 @@ lo        Link encap:Local Loopback
           RX bytes:166956 (166.9 KB)  TX bytes:166956 (166.9 KB)
 
 ]0;root@CC2-28: /home/cec-lab2/Desktoproot@CC2-28:/home/cec-lab2/Desktop# ss[Kftp root@192.168.25.3
-ssh: connect to host 192.168.25.3 port 22: No route to host
-Couldn't read packet: Connection reset by peer
+ssh: connect to host 192.168.25.3 port 22: No route to host
+
+Couldn't read packet: Connection reset by peer
+
 ]0;root@CC2-28: /home/cec-lab2/Desktoproot@CC2-28:/home/cec-lab2/Desktop# sftp root@192.168.25.3 /p[K[K-p 23
 usage: sftp [-1246aCfpqrv] [-B buffer_size] [-b batchfile] [-c cipher]
           [-D sftp_server_path] [-F ssh_config] [-i identity_file] [-l limit]
@@ -468,8 +498,10 @@ lo        Link encap:Local Loopback
           RX bytes:167132 (167.1 KB)  TX bytes:167132 (167.1 KB)
 
 ]0;root@CC2-28: /home/cec-lab2/Desktoproot@CC2-28:/home/cec-lab2/Desktop# ifconfigsftp s4d1@192.168.25.3[K5
-ssh: connect to host 192.168.25.5 port 22: No route to host
-Couldn't read packet: Connection reset by peer
+ssh: connect to host 192.168.25.5 port 22: No route to host
+
+Couldn't read packet: Connection reset by peer
+
 ]0;root@CC2-28: /home/cec-lab2/Desktoproot@CC2-28:/home/cec-lab2/Desktop# sftp s4d1@192.168.25.5 -p23[K[K 23
 usage: sftp [-1246aCfpqrv] [-B buffer_size] [-b batchfile] [-c cipher]
           [-D sftp_server_path] [-F ssh_config] [-i identity_file] [-l limit]
@@ -502,8 +534,10 @@ aa  ^Z
 ^[[A    ^Z
 [12]+  Stopped                 sftp root@192.168.25.3
 ]0;root@CC2-28: /home/cec-lab2/Desktoproot@CC2-28:/home/cec-lab2/Desktop# sftp root@192.168.25.3CEC-LAB1@192.168.25.3[5Psh s4d1@192.168.25.5ftp root@192.168.25.5 -p23 23s4d1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[14Pifconfigsftp s4d1@192.168.25.3 -p 23root[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K2
-ssh: connect to host 192.168.25.2 port 22: No route to host
-Couldn't read packet: Connection reset by peer
+ssh: connect to host 192.168.25.2 port 22: No route to host
+
+Couldn't read packet: Connection reset by peer
+
 ]0;root@CC2-28: /home/cec-lab2/Desktoproot@CC2-28:/home/cec-lab2/Desktop# ifoc[K[Kconfig
 eth0      Link encap:Ethernet  HWaddr 38:d5:47:b8:da:9e  
           inet addr:192.168.25.4  Bcast:192.168.25.255  Mask:255.255.255.0
